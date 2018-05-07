@@ -1,0 +1,28 @@
+@keyframes core-fade-slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@-webkit-keyframes core-background-scroll-lf {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -180px 0px;
+    }
+}
+
+@keyframes core-background-scroll-lf {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -180px 0px;
+    }
+}

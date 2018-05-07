@@ -1,0 +1,103 @@
+﻿{
+    "_GENERAL_": {
+        "_COMPANY_": {
+            "NAME": "bind erp"
+        },
+        "_INFORMATION_": {
+            "ORGANIZATION_HEADER": "BIND COMPLIANCE TOOLS FOR YOUR ORGANIZATION",
+            "ORGANIZATION_MISSION": { }
+        }
+    },
+    "_HEADER_": {
+        "TITLE": "About"
+    },
+    "_FOOTER_": {
+        "COPYRIGHT": "© 2018 Minnt Solutions SA of CV. All Rights Reserved.",
+        "REFUND_POLICY": "Refund Policy",
+        "PRIVACY_POLICY": "Privacy Policy",
+        "STATEMENT": "Copyright Statement",
+        "CONTACT_US": "Contact Us"
+    },
+    "_CONTACT_": {
+        "_PROPERTIES_": {
+            "PHONE": "Phone",
+            "EMAIL": "Email"
+        },
+        "_ADDRESS_": {
+            "LINE_1": "Juan Ignacio Ramón #801 Local 9-10-11",
+            "LINE_2": "Centro",
+            "CITY": "Nuevo León",
+            "STATE": "Monterrey",
+            "STATE_CODE": "MTY",
+            "POSTAL_CODE": "64000",
+            "COUNTRY": "México",
+            "PHONE": "+52 (81) 118772867",
+            "EMAIL": "contacto@bind.com.mx"
+        },
+        "TITLE": "Contact Us",
+        "SUBMIT": "Get Started"
+    },
+    "_LOGIN_": {
+        "BANNER_TITLE": "Login",
+        "BANNER_CAPTION": "{{param}}",
+        "BANNER_WL_TITLE": "WHO WE ARE",
+        "BANNER_WL_DESCRIPTION": "<span>Minnt Solutions, S.A. Of C.V.</span> aims to support SMEs to improve their administration and boost their growth.<br> That is why we create the most practical management system in the market, so that the entrepreneur can focus on their business without losing control of their processes.",
+        "_FORM_": {
+            "COMPANY_ID": "Company Number",
+            "USERNAME": "Username",
+            "COMPANY_ID_REQUIRED_MESSAGE": "Please enter your company number",
+            "USERNAME_REQUIRED_MESSAGE": "Please enter your username",
+            "PASSWORD_REQUIRED_MESSAGE": "Please enter your password",
+            "FORGOT_PASSWORD": "Forgot your password?",
+            "SUBMIT": "Sign in",
+            "SIGNUP": "or sign up using"
+        }
+    },
+    "_SALES_": {
+        "_CONNECT_WITH_SERVICES_": {
+            "TITLE": "",
+            "DESCRIPTION": ""
+        },
+        "READ_LINK": "Read more"
+    },
+    "_USER_": {
+        "BANNER_TITLE": "Access Your Bind ERP Account",
+        "BANNER_DESCRIPTION": "",
+        "_FORM_": {
+            "PASSCODE": "Passcode",
+            "EMAIL": "Email Address",
+            "PASSWORD": "Password",
+            "NEW_PASSWORD": "New Password",
+            "NEW_PASSWORD_CONFIRM": "New Password Confirmation",
+            "PASSCODE_REQUIRED": "Please enter the passcode sent to your email",
+            "PASSWORD_REQUIRED_MESSAGE": "Please enter your new password",
+            "PASSWORD_CONFIRM_REQUIRED_MESSAGE": "Passwords don't match",
+            "SUBMIT": "Submit"
+        },
+        "LOGIN_REDIRECT": "Do you want to login?",
+        "_FORGOT_PASSWORD_": {
+            "CAPTION": "Forgot password?",
+            "SUCCESS_MESSAGE": "An email has been sent to your inbox to reset the password."
+        },
+        "_RESET_PASSWORD_": {
+            "CAPTION": "Reset password",
+            "SUCCESS_MESSAGE": "Your new password was created successfully."
+        }
+    },
+    "_SYSTEM_": {
+        "_COMMON_": {
+            "TRY_AGAIN": "Try signing in again.",
+            "CLOSE": "Close"
+        },
+        "_FLOW_": {
+
+        },
+        "_LIFECYCLE_": {
+
+        },
+        "_SESSION_": {
+            "AUTHORIZATION_ERROR": "An error occurred providing the authorizations. Please contact your service provider.",
+            "INVALID_SESSION": "We are having problems validating session  or it has expired."
+        }
+    }
+}

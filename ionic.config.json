@@ -1,0 +1,8 @@
+{
+  "name": "binderp-mobile",
+  "app_id": "e2f3ddfe",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

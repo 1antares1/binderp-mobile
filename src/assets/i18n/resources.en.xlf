@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="_ContactNumber_" datatype="html">
+        <source>1-877-876-0827</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/asides/footer/footer.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c85caed94bd76ad556d77bff7a566bec46fa1489" datatype="html">
+        <source>Refund Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/asides/footer/footer.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">_Refund_</note>
+      </trans-unit>
+      <trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
+        <source>Privacy Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/asides/footer/footer.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">_Privacy_</note>
+      </trans-unit>
+      <trans-unit id="849fbf13e830c113d293ae66453b75b06a66d9a8" datatype="html">
+        <source>Copyright Statement</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/asides/footer/footer.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">_CopyStatement_</note>
+      </trans-unit>
+      <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
+        <source>Contact Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/asides/footer/footer.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <note priority="1" from="description">_Contact_</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

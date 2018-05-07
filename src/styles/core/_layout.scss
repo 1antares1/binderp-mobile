@@ -1,0 +1,37 @@
+.core-primary-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $brand-primary-paragraph-color;
+}
+
+.core-secondary-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: $brand-primary-title-color;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.core-support-link {
+    color: $brand-primary-color;
+    font-size: 14px;
+}
+
+.core-phone-format {
+    text-decoration: underline !important;
+    color: #69b7de !important;
+}
+
+.core-hr-inline-separator {
+    border: 1px solid $brand-primary-input-border-color;
+    vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+    .core-primary-text, .core-secondary-text {
+        font-size: 14px;
+    }
+    .core-hr-inline-separator {
+        width: 20%;
+    }
+}

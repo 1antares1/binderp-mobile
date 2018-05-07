@@ -1,0 +1,7 @@
+@import "../../themes/default-theme";
+
+$app-accent:  mat-palette($mat-blue);
+$brand-app-theme-primary: mat-palette($brand-theme);
+$brand-app-theme: mat-light-theme($brand-app-theme-primary, $app-accent);
+
+@include angular-material-theme($brand-app-theme);

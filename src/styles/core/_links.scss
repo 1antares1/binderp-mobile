@@ -1,0 +1,37 @@
+.core-social-item {
+    font-size: 25px;
+    color: $brand-background-color-white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    &:hover {
+        background-color: $brand-primary-title-color;
+    }
+}
+
+.core-primary-social-bg1-color {
+    background-color: $brand-primary-color;
+    background-image: url(/assets/img/icons/facebook-white.png);
+    background-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.core-primary-social-bg2-color {
+    @extend .core-primary-social-bg1-color;
+    background-color: $brand-secondary-color;
+    background-image: url(/assets/img/icons/twitter-white.png);
+}
+
+.core-primary-social-bg3-color {
+    @extend .core-primary-social-bg1-color;
+    background-color: $brand-custom-color-1;
+    background-image: url(/assets/img/icons/google-white.png);
+}
+
+.core-primary-social-bg4-color {
+    @extend .core-primary-social-bg1-color;
+    background-color: $brand-custom-color-2;
+    background-image: url(/assets/img/icons/office365-white.png);
+}

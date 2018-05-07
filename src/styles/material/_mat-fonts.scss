@@ -1,0 +1,39 @@
+// Define a custom typography config that overrides the font-family as well as the
+// `headlines` and `body-1` levels.
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i');
+
+$mat-default-font-family: "'Poppins', sans-serif";
+$mat-headings-font-family: "'Poppins', sans-serif";
+$mat-buttons-font-family: "'Poppins', sans-serif";
+
+$app-headings-typography: mat-typography-config(
+    $headline: mat-typography-level(32px, 48px, 700),
+    $title: mat-typography-level(22px, 24px, 300)
+);
+
+$app-toolbar-headings-typography: mat-typography-config(
+    $font-family: $mat-headings-font-family,
+    $headline: mat-typography-level(32px, 48px, 700),
+    $title: mat-typography-level(22px, 24px, 300)
+);
+
+$app-inputs-typography: mat-typography-config(
+    $font-family: $mat-default-font-family,
+    $body-1: mat-typography-level(12px, 24px, 500)
+);
+
+$app-buttons-typography: mat-typography-config(
+    $font-family: $mat-buttons-font-family,
+    $body-1: mat-typography-level(13px, 24px, 500)
+);
+
+$custom-typography: mat-typography-config(
+  $font-family: 'Poppins, monospace',
+  $headline: mat-typography-level(32px, 48px, 700),
+  $body-1: mat-typography-level(16px, 24px, 500)
+);
+
+@include mat-toolbar-typography($app-toolbar-headings-typography);
+@include mat-input-typography($app-inputs-typography);
+@include mat-button-typography($app-buttons-typography);

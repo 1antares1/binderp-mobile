@@ -1,0 +1,62 @@
+.core-container-form-btn {
+    @include core-display-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.core-wrap-form-btn {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+    @include core-default-box-shadow($brand-primary-box-shadow-color);
+}
+
+.core-primary-form-bg-btn {
+    position: absolute;
+    width: 300%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: $brand-primary-button-bg-color;
+    @include core-custom-bg-gradient-r-full(
+        $brand-primary-button-bg-color-t1,
+        $brand-primary-button-bg-color-t2,
+        $brand-primary-button-bg-color-t1,
+        $brand-primary-button-bg-color-t2
+    );
+    @include core-default-all-transition;
+    z-index: -1;
+}
+
+button.mat-button.core-primary-form-btn, .core-primary-form-btn {
+    font-size: 16px;
+    color: $brand-background-color-white;
+    background-color: transparent;
+    line-height: 1.2;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    @include core-display-flex;
+}
+
+.core-wrap-form-btn:hover .core-primary-form-bg-btn {
+    left: 0;
+}
+
+@media screen and (max-width: 576px), screen and (max-height: 645px) {
+    .core-container-form-btn {
+        padding-top: 20px;
+    }
+
+    button.mat-button.core-primary-form-btn, .core-primary-form-btn {
+        height: 40px;
+    }
+}

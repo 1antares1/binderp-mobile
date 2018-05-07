@@ -1,0 +1,32 @@
+.core-primary-input-checkbox {
+    display: none;
+}
+
+.core-primary-label-checkbox {
+    margin: 0;
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+    &::before {
+        content: "\f00c";
+        @include core-display-flex;
+        font-family: FontAwesome;
+        font-size: 13px;
+        color: transparent;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 2px;
+        background: #e6e6e6;
+        left: 0;
+        top: 50%;
+        @include core-default-y-translate;
+    }
+}
+
+.core-primary-input-checkbox:checked + .core-primary-label-checkbox::before {
+    color: $brand-primary-icon-ph-hover;
+}
