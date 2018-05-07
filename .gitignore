@@ -1,35 +1,104 @@
-# Specifies intentionally untracked files to ignore when using Git
-# http://git-scm.com/docs/gitignore
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-*~
-*.sw[mnpcod]
-*.log
-*.tmp
-*.tmp.*
-log.txt
-*.sublime-project
-*.sublime-workspace
-.vscode/
-npm-debug.log*
-
-.idea/
-.sourcemaps/
-.sass-cache/
-.tmp/
-.versions/
-coverage/
-dist/
+# dependencies
 node_modules/
-tmp/
-temp/
 hooks/
 platforms/
 plugins/
 plugins/android.json
 plugins/ios.json
-www/
+
 $RECYCLE.BIN/
 
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vs/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+
+# logs
+log.txt
+logs
+*.log
+/legacy-project/_SYNCAPP
+
+# runtime data
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+.vscode/
+*.pid
+*.seed
+pids
+
+# compiled output
+.idea/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.versions/
+out-tsc/
+tmp/
+
+# misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+coverage/
+npm-debug.log
+testem.log
+package-lock.json
+
+# dist
+/output
+/public/__build__/
+/src/*/__build__/
+/__build__/**
+/.awcache
+.webpack.json
+/compiled/
+dist/
+dll/
+www/
+
+# typing #
+/src/typings/tsd/
+/typings/
+/tsd_typings/
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# doc #
+/doc/
+/documentation/
+
+# System Files
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
+
+# compiled binary addons (http://nodejs.org/api/addons.html)
+npm-debug.log*
+build/Release
+
+# users environment variables
+.lock-wscript
+
+
