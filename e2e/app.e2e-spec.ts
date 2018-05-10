@@ -1,5 +1,4 @@
-import { AppPage
-} from "./app.po";
+import { AppPage } from "./app.po";
 
 describe("tn-website App", () => {
     let page: AppPage;
