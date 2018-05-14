@@ -6,28 +6,28 @@ import { IonicApp, IonicErrorHandler, IonicModule } from "ionic-angular";
  * Own
  */
 //#region components
-import { MyApp } from "./app.component";
-import { HomePage } from "../pages/home/home";
-import { ListPage } from "../pages/list/list";
+import { AppComponent } from "./app.component";
+import { HomePageComponent } from "../pages/home/home";
+import { ListPageComponent } from "../pages/list/list";
 import { StatusBar } from "@ionic-native/status-bar";
 import { SplashScreen } from "@ionic-native/splash-screen";
 //#endregion
 
 @NgModule({
     declarations: [
-        MyApp,
-        HomePage,
-        ListPage
+        AppComponent,
+        HomePageComponent,
+        ListPageComponent
     ],
     imports: [
         BrowserModule,
-        IonicModule.forRoot(MyApp),
+        IonicModule.forRoot(AppComponent),
     ],
     bootstrap: [IonicApp],
     entryComponents: [
-        MyApp,
-        HomePage,
-        ListPage
+        AppComponent,
+        HomePageComponent,
+        ListPageComponent
     ],
     providers: [
         StatusBar,
